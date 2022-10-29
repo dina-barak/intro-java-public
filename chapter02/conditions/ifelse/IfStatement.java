@@ -1,4 +1,4 @@
-package chapter02.ifelse;
+package chapter02.conditions.ifelse;
 
 class IfStatement {
     public static void main(String[] args) {

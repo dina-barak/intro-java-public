@@ -1,4 +1,4 @@
-package chapter02.ifelse;
+package chapter02.conditions.ifelse;
 class NestedIfElseStatement {
     public static void main(String[] args) {
         // declaring double type variables

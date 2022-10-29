@@ -1,4 +1,4 @@
-package chapter02.forloop;
+package chapter02.loops.forloop;
 
 // Infinite for Loop
 

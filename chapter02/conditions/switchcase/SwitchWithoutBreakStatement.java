@@ -1,4 +1,4 @@
-package chapter02.switchcase;
+package chapter02.conditions.switchcase;
 
 class SwitchWithoutBreakStatement {
     public static void main(String[] args) {
