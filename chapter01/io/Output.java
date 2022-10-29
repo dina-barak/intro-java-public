@@ -1,4 +1,4 @@
-package sce.cs.chapter01.io;
+package chapter01.io;
 
 public class Output {
     public static void main(String[] args) {

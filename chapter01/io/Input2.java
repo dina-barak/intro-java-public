@@ -1,4 +1,4 @@
-package sce.cs.chapter01.io;
+package chapter01.io;
 
 import java.util.Scanner;
 

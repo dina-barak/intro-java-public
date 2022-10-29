@@ -1,4 +1,4 @@
-package sce.cs.chapter02.forloop;
+package chapter02.forloop;
 
 // Program to print a text 5 times
 class For1 {

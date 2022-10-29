@@ -1,4 +1,4 @@
-package sce.cs.chapter02.forloop;
+package chapter02.forloop;
 
 // Infinite for Loop
 

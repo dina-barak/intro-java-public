@@ -1,4 +1,4 @@
-package sce.cs.chapter02.ifelse;
+package chapter02.ifelse;
 
 class IfElseIfLadderStatement {
     public static void main(String[] args) {

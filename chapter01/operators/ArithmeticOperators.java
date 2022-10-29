@@ -1,4 +1,4 @@
-package sce.cs.chapter01.operators;
+package chapter01.operators;
 
 public class ArithmeticOperators {
     public static void main(String[] args) {

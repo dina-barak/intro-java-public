@@ -1,4 +1,4 @@
-package sce.cs.chapter02.ifelse;
+package chapter02.ifelse;
 
 public class IfStatement2 {
     public static void main(String[] args) {

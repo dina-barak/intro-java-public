@@ -1,4 +1,4 @@
-package sce.cs.chapter01.variables;
+package chapter01.variables;
 
 public class Casting {
 

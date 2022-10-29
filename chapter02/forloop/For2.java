@@ -1,4 +1,4 @@
-package sce.cs.chapter02.forloop;
+package chapter02.forloop;
 
 // Program to print numbers from 1 to 5
 class For2 {

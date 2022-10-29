@@ -1,4 +1,4 @@
-package sce.cs.chapter02.switchcase;
+package chapter02.switchcase;
 
 class SwitchDefaultStatement {
     public static void main(String[] args) {
