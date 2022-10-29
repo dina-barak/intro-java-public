@@ -1,4 +1,4 @@
-package sce.cs.chapter02;
+package sce.cs.chapter02.switchcase;
 
 class SwitchWithoutBreakStatement {
     public static void main(String[] args) {
