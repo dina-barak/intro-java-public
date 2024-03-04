@@ -1,6 +1,8 @@
 package chapter03arrays.arrays2d.examples;
 
-// Java program to find maximum element of each row in a matrix
+/**
+ * Find maximum element of each row in a matrix
+ */
 public class MaxInEachRow{
     public static void main(String[] args) {
         int[][] arr = {

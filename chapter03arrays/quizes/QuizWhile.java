@@ -1,7 +1,7 @@
 package chapter03arrays.quizes;
 
 /**
- * While empty body. Will stop when i turnes negative
+ * While empty body. Will stop when i turns negative
  */
 public class QuizWhile {
     public static void main(String[] args) {

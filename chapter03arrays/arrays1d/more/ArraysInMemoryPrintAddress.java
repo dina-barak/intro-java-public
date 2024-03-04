@@ -1,6 +1,6 @@
 package chapter03arrays.arrays1d.more;
 
-public class ArrayInMemoryPrintAddress {
+public class ArraysInMemoryPrintAddress {
     public static void main(String[] args) {
         int[] a; // undefined
         a = new int[3]; // initialized with zeros

@@ -1,7 +1,9 @@
 package chapter03arrays.arrays2d.examples;
 
-// JAVA program to check whether a given
-// matrix is magic matrix or not
+/**
+ * JAVA program to check whether a given
+ * matrix is magic matrix or not
+ */
 class MagicSquareChecker {
     public static void main(String[] args)
     {
