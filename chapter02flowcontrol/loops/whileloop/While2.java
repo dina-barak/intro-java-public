@@ -9,17 +9,18 @@ class While2 {
         Scanner input = new Scanner(System.in);
         // take integer input from the user
         System.out.println("Enter a number");
-        int number = input.nextInt();
+        int number = input.nextInt();// number = 5
 
         // while loop continues until entered number is positive
-        while (number >= 0) {
+        while (number >= 0) {// number = 3
             // add only positive numbers
-            sum += number;
+            sum += number;   // sum =  8
 
             System.out.println("Enter a number");
-            number = input.nextInt();
+            number = input.nextInt(); // number = -3
         }
         System.out.println("Sum = " + sum);
         input.close();
+
     }
 }

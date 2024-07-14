@@ -5,7 +5,7 @@ package chapter07search;
 
 class Search8_InterpolationSearch_Recursive {
     public static int interpolationSearch(
-            int arr[], int lo, int hi, int x) {
+            int[] arr, int lo, int hi, int x) {
         int pos;
 
         if (lo <= hi && x >= arr[lo] && x <= arr[hi]) {
@@ -13,9 +13,9 @@ class Search8_InterpolationSearch_Recursive {
             // Probing the position with keeping
             // uniform distribution in mind.
             pos = lo
-                    + (((hi - lo) / (arr[hi] - arr[lo]))
-                    * (x - arr[lo]));
-
+                    + (x - arr[lo])
+                    * (hi - lo) / (arr[hi] - arr[lo]);
+            
             // Condition of target found
             if (arr[pos] == x)
                 return pos;
@@ -32,7 +32,7 @@ class Search8_InterpolationSearch_Recursive {
     }
 
     public static void main(String[] args) {
-        int arr[] = {10, 12, 13, 16, 18, 19, 20, 21,
+        int[] arr = {10, 12, 13, 16, 18, 19, 20, 21,
                 22, 23, 24, 33, 35, 42, 47};
         int x = 18; // Element to be searched
 

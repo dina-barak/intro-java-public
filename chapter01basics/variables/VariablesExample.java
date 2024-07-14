@@ -1,7 +1,7 @@
 package chapter01basics.variables;
 
 public class VariablesExample {
-        public static void main(String args[]) {
+        public static void main(String[] args) {
 
             // Creating and initializing custom character
             char a = 'G';
@@ -19,5 +19,6 @@ public class VariablesExample {
             System.out.println("integer: " + i);
             System.out.println("double: " + d);
             System.out.println("long: " + l);
+
         }
 }

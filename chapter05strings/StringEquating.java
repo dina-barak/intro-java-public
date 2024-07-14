@@ -7,13 +7,13 @@ import java.util.Arrays;
  */
 public class StringEquating {
     public static void main(String[] args) {
-        //compare arrays
+        //equate arrays
         int[] array1 = {1};
         int[] array2 = {1};
         System.out.println("array1 == array2 is " + (array1 == array2));
         System.out.println("Arrays.equals(array1,array2) is " + Arrays.equals(array1,array2) + "\n");
 
-        //compare strings
+        //equate strings
         String string1 = "Hello";
         String string2 = "World";
         String string3 = new String("Hello");

@@ -6,8 +6,8 @@ class For1 {
         int n = 5;
 
         // for loop
-        for (int i = 1; i <= n; ++i) {
-            System.out.println("Java is fun");
+        for (int i = 0, j = 0; i < n && j > -10; i++, j--) {
+            System.out.println(" Java is fun");
         }
     }
 }

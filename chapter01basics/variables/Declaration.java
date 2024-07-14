@@ -9,5 +9,6 @@ public class Declaration {
 
         double x;
         char c;
+
     }
 }

@@ -6,8 +6,8 @@ class For2 {
         int n = 5;
 
         // for loop
-        for (int i = 1; i <= n; ++i) {
-            System.out.println(i);
+        for (int i = 0; i < n; i++) {
+            System.out.println(i++);
         }
     }
 }

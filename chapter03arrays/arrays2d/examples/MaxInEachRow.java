@@ -24,6 +24,9 @@ public class MaxInEachRow{
             max = 0;
             i++;
         }
+        for (int j = 0; j < result.length; j++) {
+            System.out.println(result[j]);
+        }
     }
 }
 

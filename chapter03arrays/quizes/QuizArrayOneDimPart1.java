@@ -13,7 +13,8 @@ public class QuizArrayOneDimPart1 {
         for(int j = 3; j < a.length; j += 3)
             a[j] = false;
 
-        for(int j = 0; j < a.length; j++)  if(a[j]) System.out.println(j);
+        for(int j = 0; j < a.length; j++)
+            if(!a[j]) System.out.println(j);
 
 
     }

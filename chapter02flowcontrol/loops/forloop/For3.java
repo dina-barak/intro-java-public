@@ -7,7 +7,7 @@ class For3 {
         int n = 5;
 
         // for loop
-        for (int i = 1; i <= n; ++i) {
+        for (int i = 0; i < n; i++) {
             sum += i; // sum = sum + i
         }
 
