@@ -3,7 +3,7 @@ package chapter06recursion;
 public class Recursion0Stars {
     public static void main(String[] args) {
         
-        printStars(0);
+        printStars(8);
 
         //int starNumber = countStars(5);
         //System.out.println("number of stars printed = " + starNumber);

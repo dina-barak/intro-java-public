@@ -3,7 +3,7 @@ package chapter08sort;
 import java.util.Arrays;
 
 class Sort0StandardLibrary {
-    public static void main(String args[])
+    public static void main(String[] args)
     {
         int[] arr = { 5, -2, 23, 7, 87, -42, 509 };
         System.out.println("The original array is: ");

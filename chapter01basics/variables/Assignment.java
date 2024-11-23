@@ -2,7 +2,7 @@ package chapter01basics.variables;
 
 public class Assignment {
     public static void main(String[] args) {
-        int i;
+        int i = 5;
 
         i = 10;
         System.out.println(i); // prints 10

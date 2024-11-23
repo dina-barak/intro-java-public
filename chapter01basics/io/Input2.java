@@ -16,11 +16,14 @@ class Input2 {
         System.out.print("Enter double: ");
         double myDouble = input.nextDouble();
         System.out.println("Double entered = " + myDouble);
+        System.out.println("printing: " + myDouble + myFloat);
 
         // Getting String input
+/*
         System.out.print("Enter text: ");
         String myString = input.next();
         System.out.println("Text entered = " + myString);
+*/
     }
 }
 

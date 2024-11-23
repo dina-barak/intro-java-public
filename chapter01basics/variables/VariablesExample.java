@@ -13,7 +13,7 @@ public class VariablesExample {
             double d = 4.355453532;
 
             // need to hold big range of numbers then we need this data type
-            long l = 123456789123456789L;
+            long l = 123456789123456789l * 2 - 5000;
 
             System.out.println("char: " + a);
             System.out.println("integer: " + i);

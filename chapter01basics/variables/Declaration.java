@@ -8,7 +8,7 @@ public class Declaration {
         boolean found;
 
         double x;
-        char c;
+        char c = '3';
 
     }
 }
