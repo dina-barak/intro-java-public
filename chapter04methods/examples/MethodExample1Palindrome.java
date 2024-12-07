@@ -23,5 +23,18 @@ class MethodExample1Palindrome {
         // return true if reversedNumber and originalNumber are equal
         return originalNumber == reversedNumber;
     }
+    /*public static boolean isPalindrome2(int number){
+        if (number < 10) return true;
+        if (number % 10 == 0) return false;
+        int rightReverse = 0;
+        while (number > rightReverse){
+            int digit = number % 10;
+            number /= 10;
+            rightReverse = rightReverse * 10 + digit;
+        }
+        // Check if the number is a palindrome
+        // For odd-length numbers, discard the middle digit by reversedHalf/10
+        return number == rightReverse || number == rightReverse / 10;
+    }*/
 }
 //3553 is Palindrome.

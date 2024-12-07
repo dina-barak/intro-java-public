@@ -15,13 +15,15 @@ public class MethodOverview2 {
         System.out.println("back to main!!  a = " + a);
     }
     public static void method1(){
-        System.out.println("in method Method1\n" +
-                "in class MethodOverview\n" +
-                "in package chapter04methods.methods\n");
+        System.out.println("""
+                in method Method1
+                in class MethodOverview
+                in package chapter04methods.methods\n""");
     }
     public static void method2(int a){ System.out.println("in method Method2: parameter a = " + a +
-            "\nin class MethodOverview\n" +
-            "in package chapter04methods.methods\n");
+            """
+            \nin class MethodOverview
+            in package chapter04methods.methods\n""");
     }
     public static int method3(int a){
         System.out.println("Method3: parameter a = " + a);

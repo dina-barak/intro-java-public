@@ -33,7 +33,7 @@ public class CesarCode {
     /**
      * Decrypt string
      * @param str String to decrypt
-     * @param key shift in letters
+     * @param key shift in letters we assume key<=26
      * @return decrypt string
      */
     public static String decrypt(String str, int key) {

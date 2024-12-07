@@ -11,7 +11,7 @@ public class QuizArrayOneDimPart2 {
         a[0] = a[1] = false;                 //The first two elements are set to false.
 
         for(int i = 2; i < a.length; i++)
-            if(a[i] == true)
+            if(a[i])
                 for(int j = 2 * i; j < a.length; j += i)
                     a[j] = false;
 
